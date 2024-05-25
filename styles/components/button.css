@@ -21,7 +21,14 @@
 
 .secondary {
   background-color: transparent;
-  color: var(--secondary-button-text);
+  color: #fbfcfe;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.115px;
   border: 1px solid var(--secondary-button-text);
   padding: 16px 26px;
 }

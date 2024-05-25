@@ -58,7 +58,7 @@
   --light-background: #edf3f8;
   /* Buttons */
   --primary-button-background: #639C06;
-  --primary-button-hover: #CCFA7D;
+  --primary-button-hover: rgba(99, 156, 6, 0.66);
   --primary-button-disabled: #639C06;
   --secondary-button-background: #edf3f8;
   --secondary-button-text: #ffffff;

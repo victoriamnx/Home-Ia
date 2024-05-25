@@ -15,11 +15,22 @@
 }
 
 .benefit-card__heading {
-  color: var(--dark-text);
-  font-size: var(--font-h3);
-  font-weight: bold;
+  color: #36536B;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: -0.138px;
 }
 
 .benefit-card__copy {
-  color: var(--accent-text);
-}
+  color: #6C8294;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: -0.115px;}

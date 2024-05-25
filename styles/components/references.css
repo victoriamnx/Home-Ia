@@ -1,5 +1,5 @@
 .references {
-  background: url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
+  background: url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
     center -37rem;
   background-color: var(--dark-background);
   color: var(--light-text);
@@ -9,7 +9,7 @@
 
 @media (min-width: 768px) {
   .references {
-    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
+    background: url("../../assets/shared/desktop/bg-pattern-circle.svg")
       no-repeat center -34rem;
     background-color: var(--dark-background);
     color: var(--light-text);
@@ -20,7 +20,7 @@
 
 @media (min-width: 1200px) {
   .references {
-    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
+    background: url("../../assets/shared/desktop/bg-pattern-circle.svg")
       no-repeat -69% -315px;
     background-color: var(--dark-background);
     color: var(--light-text);
@@ -32,7 +32,7 @@
 
 @media (min-width: 1300px) {
   .references {
-    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
+    background: url("../../assets/shared/desktop/bg-pattern-circle.svg")
       no-repeat -55% -315px;
     background-color: var(--dark-background);
     color: var(--light-text);
@@ -44,7 +44,7 @@
 
 @media (min-width: 1400px) {
   .references {
-    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
+    background: url("../../assets/shared/desktop/bg-pattern-circle.svg")
       no-repeat -45% -315px;
     background-color: var(--dark-background);
     color: var(--light-text);
@@ -93,7 +93,13 @@
 }
 
 .references-description__heading {
-  font-size: var(--font-h3-large);
+  color: #fbfcfe;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.369px;
 }
 
 @media (min-width: 768px) {
@@ -103,7 +109,13 @@
 }
 
 .references-description__copy {
-  color: var(--faded-text);
+  color: #fbfcfe;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  opacity: 0.7;
   max-width: 375px;
   margin: auto;
   margin-bottom: var(--spacing-lg);

@@ -31,6 +31,13 @@
   letter-spacing: -0.115px;
   border: 1px solid var(--secondary-button-text);
   padding: 16px 26px;
+  text-decoration: none;
+
+}
+
+.secondary:hover {
+  background-color: var(--secondary-button-background-hover);
+  color: var(--secondary-button-hover-text);
 }
 
 .secondary:hover {

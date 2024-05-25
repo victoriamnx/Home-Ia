@@ -193,12 +193,13 @@
 .our-business__description,
 .our-culture__description,
 .our-people__description {
-  color: #6C8294;
+  color: #6c8294;
   font-family: "Public Sans";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 186.667% */}
+  line-height: 28px; /* 186.667% */
+}
 
 .our-business__description {
   margin-bottom: var(--spacing-lg);

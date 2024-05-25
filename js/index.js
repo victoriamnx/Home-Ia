@@ -1,24 +1,24 @@
 // Mobile menu
-const toggleButton = document.querySelector('#jsToggleButton');
-let toggleImg = document.querySelector('#jsToggleImg');
-const navigationList = document.querySelector('.navigation__list');
+const toggleButton = document.querySelector("#jsToggleButton");
+let toggleImg = document.querySelector("#jsToggleImg");
+const navigationList = document.querySelector(".navigation__list");
 
 // Set toggle button img icons
-const menuSvg = './assets/shared/mobile/menu.svg';
-const closeSvg = './assets/shared/mobile/close.svg';
+const menuSvg = "./assets/shared/mobile/menu.svg";
+const closeSvg = "./assets/shared/mobile/close.svg";
 // global state for mobile menu
 let isOpen = false;
 
 // remove close class and add open class
 function openMenu() {
-  navigationList.classList.remove('close');
-  navigationList.classList.add('open');
+  navigationList.classList.remove("close");
+  navigationList.classList.add("open");
 }
 
 // remove open class and add close class
 function closeMenu() {
-  navigationList.classList.remove('open');
-  navigationList.classList.add('close');
+  navigationList.classList.remove("open");
+  navigationList.classList.add("close");
 }
 
 // change img source of the toggle button
@@ -46,4 +46,4 @@ function menuToggle() {
   }
 }
 
-toggleButton.addEventListener('click', menuToggle);
+toggleButton.addEventListener("click", menuToggle);

@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap");
 :root {
   /* Font Family */
-  --font-dm-serif: 'DM Serif Display', serif;
-  --font-public-sans: 'Public Sans', sans-serif;
+  --font-dm-serif: "DM Serif Display", serif;
+  --font-public-sans: "Public Sans", sans-serif;
 
   /* Font sizes */
   --font-body: 1rem; /* 16px */
@@ -41,7 +41,7 @@
   --screen-xl: 1200px;
 
   /* Primary color */
-  --primary: #639C06;
+  --primary: #639c06;
   --primary-accent: #939bf4;
   --secondary: #36536b;
   /* Text */
@@ -57,9 +57,9 @@
   --dark-background: #1b262f;
   --light-background: #edf3f8;
   /* Buttons */
-  --primary-button-background: #639C06;
+  --primary-button-background: #639c06;
   --primary-button-hover: rgba(99, 156, 6, 0.66);
-  --primary-button-disabled: #639C06;
+  --primary-button-disabled: #639c06;
   --secondary-button-background: #edf3f8;
   --secondary-button-text: #ffffff;
   --secondary-button-background-hover: #ffffff;
@@ -71,7 +71,7 @@
   --dark-button-disabled: #9aa9b5;
   /* Checkbox */
   --checkbox-background: #bfcbd5;
-  --checkbox-active-background: #639C06;
+  --checkbox-active-background: #639c06;
   --checkbox-disabled-background: rgba(54, 83, 107, 0.05);
   /* Other colors */
   --tertiary: #6d8395;

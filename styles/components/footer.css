@@ -1,5 +1,5 @@
 .footer {
-  background: url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
+  background: url("../../assets/shared/desktop/bg-pattern-circle.svg") no-repeat
     center 10rem;
   background-color: var(--dark-background);
   color: var(--light-text);
@@ -10,7 +10,7 @@
 
 @media (min-width: 768px) {
   .footer {
-    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
+    background: url("../../assets/shared/desktop/bg-pattern-circle.svg")
       no-repeat calc(70% + 425px) -10rem;
     background-color: var(--dark-background);
     color: var(--light-text);

@@ -255,6 +255,7 @@
 
 .form-group__contact-button {
   width: 150px;
+  text-decoration: none;
 }
 
 .error {

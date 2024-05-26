@@ -18,10 +18,6 @@
     display: none;
     z-index: 0;
   }
-
-  .navigation__logo {
-    flex: 1;
-  }
 }
 
 .navigation__list {

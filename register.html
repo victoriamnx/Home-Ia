@@ -51,12 +51,23 @@
 
     <main class="contact-main">
       <div class="container">
-        <h1 class="contact__heading">Já possui cadastro?</h1>
+        <h1 class="contact__heading">
+          Preencha as informações abaixo para se cadastrar
+        </h1>
       </div>
 
       <div class="container contact__wrapper">
         <section id="contact" class="contact">
           <form id="contact-form" class="contact__form">
+            <div class="contact__form-group">
+              <input
+                id="name"
+                type="text"
+                placeholder="Nome"
+                class="form-group__input"
+              />
+              <small></small>
+            </div>
             <div class="contact__form-group">
               <input
                 id="email"
@@ -66,7 +77,15 @@
               />
               <small></small>
             </div>
-
+            <div class="contact__form-group">
+              <input
+                id="company"
+                type="text"
+                placeholder="Número de telefone"
+                class="form-group__input"
+              />
+              <small></small>
+            </div>
             <div class="contact__form-group">
               <input
                 id="title"
@@ -77,9 +96,29 @@
               <small></small>
             </div>
 
+            <div class="contact__form-group">
+              <label for="stay-up-to-date" class="form-group__label">
+                <input
+                  id="stay-up-to-date"
+                  type="checkbox"
+                  class="form-group__checkbox"
+                />
+                <span class="form-group__checkmark"></span>
+                <span class="form-group__checkbox-text"
+                  >Receber novidades e atualizações sobre a Home Ia</span
+                >
+              </label>
+            </div>
+            <button
+              type="submit"
+              class="button dark-button form-group__contact-button"
+            >
+              Cadastrar
+            </button>
+            
             <a
               type="submit"
-              href="admin.html"
+              href="login.html"
               class="button dark-button form-group__contact-button"
             >
               Login

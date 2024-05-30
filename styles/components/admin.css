@@ -100,7 +100,7 @@
   justify-content: space-between;
   border-radius: 10px;
   padding: 16px;
-  background: #36536B;
+  background: rgba(54, 83, 107, 0.62);
   width: 1024px;
   height: 60px;
 }
@@ -156,13 +156,13 @@
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #36536B;
+  border: 3px solid rgba(54, 83, 107, 0.62);
   border-right: none;
   padding: 5px;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #9DBFAF;
-  background-color: #36536B;
+  background-color: rgba(54, 83, 107, 0.62);
 }
 
 .search ::placeholder {
@@ -178,8 +178,8 @@ letter-spacing: -0.115px;
 .searchButton {
   width: 40px;
   height: 50px;
-  border: 1px solid #36536B;
-  background: #36536B;
+  border: 1px solid rgba(54, 83, 107, 0.62);
+  background: rgba(54, 83, 107, 0.62);
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;

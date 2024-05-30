@@ -107,14 +107,12 @@
 @media (min-width: 768px) {
   .contact-references {
     max-width: 540px;
-    margin: var(--spacing-xs) auto var(--spacing-md) auto;
   }
 }
 
 @media (min-width: 768px) {
   .contact-references {
     max-width: 540px;
-    margin: var(--section-padding) auto var(--spacing-md) auto;
   }
 }
 
@@ -266,3 +264,32 @@
 .danger {
   color: var(--danger);
 }
+
+.contact-links {
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+}
+
+.contact-links a {
+  color: #36536B;
+  font-family: "Public Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  color: #36536B;
+  text-decoration: underline;
+}
+
+.ct {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+

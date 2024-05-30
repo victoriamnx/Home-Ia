@@ -4,14 +4,22 @@
 
 .benefits__wrapper {
   display: grid;
-  gap: var(--spacing-lg);
+  gap: 100px;
+  color: #36536b;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 125% */
+  letter-spacing: -0.138px;
 }
 
 @media (min-width: 768px) {
   .benefits__wrapper {
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-  }
+    gap: 100px;
+    }
 }
 
 .benefit-card__heading {
